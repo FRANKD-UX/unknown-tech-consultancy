@@ -1,0 +1,74 @@
+{
+  "pillars": [
+    {
+      "id": "build",
+      "number": "01",
+      "title": "BUILD",
+      "description": "Digital products and business systems designed around real operational needs.",
+      "services": [
+        "Website Design",
+        "Web Development",
+        "Custom Software Development",
+        "Systems Built From Scratch",
+        "UX/UI Design",
+        "E-commerce",
+        "Web Applications",
+        "Business Portals",
+        "APIs & Integrations",
+        "Database-backed Systems"
+      ]
+    },
+    {
+      "id": "automate",
+      "number": "02",
+      "title": "AUTOMATE",
+      "description": "Streamline delivery, infrastructure and business processes through automation.",
+      "services": [
+        "DevOps",
+        "CI/CD",
+        "Cloud Infrastructure",
+        "Infrastructure Automation",
+        "Workflow Automation",
+        "Business Process Automation",
+        "Systems Integration",
+        "Data Pipelines",
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "secure",
+      "number": "03",
+      "title": "SECURE",
+      "description": "Build security into applications, infrastructure and everyday operations.",
+      "services": [
+        "Cybersecurity",
+        "Application Security",
+        "Identity & Access Management",
+        "Infrastructure Hardening",
+        "Security Monitoring",
+        "Vulnerability Management",
+        "Backup & Recovery",
+        "Security Assessments"
+      ]
+    },
+    {
+      "id": "scale",
+      "number": "04",
+      "title": "SCALE",
+      "description": "Ongoing technology, digital and managed services that help businesses grow.",
+      "services": [
+        "Managed IT / MSP Services",
+        "IT Support",
+        "Infrastructure Management",
+        "Website Maintenance",
+        "Application Maintenance",
+        "Hosting",
+        "Performance Optimisation",
+        "SEO Optimisation",
+        "Digital Marketing",
+        "Analytics & Reporting",
+        "Ongoing Technical Support"
+      ]
+    }
+  ]
+}

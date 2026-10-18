@@ -1,0 +1,87 @@
+We are replacing the current `Our Approach` navigation destination with a new client-focused Team experience.
+
+A complete handoff pack is available in this folder.
+
+Before making changes:
+
+1. Read `TEAM_PAGE_SPEC.md` completely.
+2. Read `TEAM_PROFILE_SPEC.md` completely.
+3. Inspect `team-data.json`.
+4. Inspect all portraits under `assets/team/`.
+5. Inspect all visual references under `assets/references/`.
+6. Inspect the current navbar, `/approach` route, layout system, typography, shared data and existing site components.
+7. Preserve the existing Home and Services pages.
+
+Implement:
+
+- `/team`
+- `/team/bokamoso-jadian-motlopi`
+- `/team/frank-ndlovu`
+- `/team/sophie`
+- `/team/matthew`
+
+Change the navbar label:
+`Our Approach` -> `Our Team`
+
+Use the existing navbar component.
+
+The Team landing page should closely match:
+`assets/references/team-landing-reference.png`
+
+Important:
+The Team landing page stays Warm Bone / Warm White and should NOT use the full Forest treatment.
+
+Individual profile pages should use the Forest treatment shown in:
+`assets/references/frank-profile-forest-reference.png`
+
+Use:
+`assets/references/bokamoso-profile-layout-reference.png`
+as additional guidance for profile information architecture and client-benefit storytelling.
+
+Do not render reference images as page content.
+
+Use the actual supplied portraits.
+
+Architecture:
+- use one canonical team data source
+- use reusable TeamCard and TeamMemberProfile components
+- avoid four copy-pasted profile pages
+- if the repository already has an appropriate data module, migrate the handoff data into that structure rather than creating competing sources of truth
+
+Critical positioning:
+- Frank owns deeper technical delivery across custom software, APIs, databases, integrations, architecture, cloud, DevOps, automation and security.
+- Matthew is Web Designer & Framer Developer only.
+- Sophie and Matthew body content intentionally contains Lorem Ipsum placeholders. Do not invent facts to replace them.
+- Bokamoso is Head of Sales & Revenue Growth and his profile must focus on client outcomes.
+
+Do not implement fake stats from the generated references.
+Do not invent experience years, project totals, customer counts, certifications, awards or testimonials.
+
+If `/approach` already exists, redirect it to `/team` where appropriate rather than leaving stale navigation.
+
+After implementation verify:
+- all team routes
+- all portrait paths
+- responsive behaviour
+- keyboard interaction
+- reduced motion
+- Home unchanged
+- Services unchanged
+- no fake data introduced
+
+Run:
+`npm run typecheck`
+`npm run build`
+
+Then report:
+1. files created
+2. files modified
+3. routing changes
+4. reusable component architecture
+5. data architecture
+6. responsive behaviour
+7. accessibility / reduced-motion behaviour
+8. typecheck result
+9. build result
+
+Do not commit, push or deploy.

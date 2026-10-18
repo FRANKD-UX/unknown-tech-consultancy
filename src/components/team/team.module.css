@@ -1,0 +1,367 @@
+.page {
+  background: var(--bone);
+  color: var(--forest-900);
+}
+
+.header { display: flow-root; }
+
+.eyebrow {
+  margin: 0 0 20px;
+  font-size: 0.64rem;
+  font-weight: 650;
+  line-height: 1.7;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.eyebrow::after {
+  display: block;
+  width: 34px;
+  height: 1px;
+  margin-top: 16px;
+  background: currentColor;
+  opacity: 0.45;
+  content: "";
+}
+
+.people { padding-block: 72px 64px; }
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 44px;
+}
+
+.introduction h1 {
+  max-width: 650px;
+  margin: 0 0 24px;
+  font-size: clamp(2.8rem, 4.2vw, 4.5rem);
+  font-weight: 550;
+  line-height: 1.04;
+  letter-spacing: -0.055em;
+  text-wrap: balance;
+}
+
+.introduction p:not(.eyebrow),
+.togetherInner > div > p:not(.eyebrow) {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.introduction .lead { max-width: 590px; }
+
+.secondaryIntro {
+  padding-left: 48px;
+  border-left: 1px solid rgba(16, 37, 31, 0.15);
+}
+
+.secondaryIntro h2 {
+  max-width: 490px;
+  margin: 0 0 20px;
+  font-size: clamp(1.65rem, 2.4vw, 2.65rem);
+  font-weight: 550;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(16, 37, 31, 0.15);
+  border-radius: 10px;
+  background: var(--warm-white);
+  transition: border-color 250ms ease, background-color 250ms ease;
+}
+
+.cardPortrait {
+  position: relative;
+  aspect-ratio: 1 / 1.06;
+  overflow: hidden;
+}
+
+.cardPortrait img {
+  object-fit: cover;
+  object-position: center 30%;
+  transition: transform 550ms ease;
+}
+
+.cardPortrait::after {
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 22%;
+  background: linear-gradient(transparent, var(--warm-white));
+  pointer-events: none;
+  content: "";
+}
+
+.cardIndex {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(16, 37, 31, 0.15);
+  border-radius: 50%;
+  background: var(--bone);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+}
+
+.cardContent {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 8px 22px 24px;
+}
+
+.cardContent h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.35rem, 1.8vw, 1.8rem);
+  font-weight: 550;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.cardRole {
+  min-height: 3.2em;
+  margin: 0 0 18px;
+  font-size: 0.59rem;
+  font-weight: 600;
+  line-height: 1.65;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.cardRole::after {
+  display: block;
+  width: 28px;
+  height: 1px;
+  margin-top: 12px;
+  background: var(--forest-400);
+  content: "";
+}
+
+.cardValue {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.cardValue p {
+  flex: 1;
+  margin: 0;
+  font-size: 0.83rem;
+  line-height: 1.6;
+}
+
+.arrow {
+  display: grid;
+  flex: 0 0 36px;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 1.15rem;
+  transition: background-color 250ms ease, color 250ms ease;
+}
+
+.card:focus-visible,
+.backLink:focus-visible {
+  outline: 3px solid var(--forest-400);
+  outline-offset: 5px;
+}
+
+@media (hover: hover) {
+  .card:hover { border-color: var(--forest-400); }
+  .card:hover .cardPortrait img { transform: scale(1.025); }
+  .card:hover .arrow { background: var(--forest-900); color: var(--warm-white); }
+}
+
+.together {
+  padding-block: 56px;
+  border-block: 1px solid rgba(16, 37, 31, 0.12);
+  background: var(--warm-white);
+}
+
+.togetherInner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 2fr);
+  gap: 60px;
+  align-items: start;
+}
+
+.togetherInner h2 {
+  text-wrap: balance;
+  margin: 0 0 22px;
+  font-size: clamp(1.9rem, 2.4vw, 2.6rem);
+  font-weight: 550;
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+}
+
+.flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flow li { position: relative; min-width: 0; }
+
+.flow li:not(:last-child)::before {
+  position: absolute;
+  top: 23px;
+  left: 48px;
+  width: calc(100% - 24px);
+  height: 1px;
+  background: rgba(85, 107, 87, 0.4);
+  content: "";
+}
+
+.flowNode {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(85, 107, 87, 0.35);
+  border-radius: 50%;
+  background: var(--bone);
+  font-size: 0.7rem;
+}
+
+.flow h3 { margin: 0 0 12px; font-size: 1rem; font-weight: 600; line-height: 1.35; }
+.flow p { margin: 0; font-size: 0.8rem; line-height: 1.65; }
+
+.contact { padding-block: 56px; }
+.contactInner { display: flex; align-items: center; justify-content: space-between; gap: 48px; }
+.contactInner > div { max-width: 780px; }
+.contactInner h2 { margin: 0 0 16px; font-size: clamp(1.85rem, 3vw, 3rem); font-weight: 550; line-height: 1.12; letter-spacing: -0.045em; }
+.contactInner p:not(.eyebrow) { margin: 0; font-size: 0.95rem; line-height: 1.6; }
+.contactInner > a { flex-shrink: 0; }
+
+/* Profiles use the same template and content source for every member. */
+.forest { background: var(--forest-900); color: var(--warm-white); }
+.profileMain { padding-top: 34px; }
+.backLink { display: inline-flex; align-items: center; gap: 12px; font-size: 0.8rem; }
+.profile {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+  padding-block: 36px 64px;
+}
+
+.portraitColumn { position: relative; padding-top: 62px; }
+.memberNumber {
+  position: absolute;
+  z-index: 1;
+  top: -22px;
+  left: -8px;
+  color: var(--bone);
+  opacity: 0.17;
+  font-size: clamp(7rem, 12vw, 12rem);
+  font-weight: 450;
+  line-height: 1;
+  letter-spacing: -0.08em;
+  pointer-events: none;
+}
+
+.profilePortrait { position: relative; aspect-ratio: 0.64; overflow: hidden; border: 1px solid rgba(251, 248, 243, 0.16); border-radius: 14px; }
+.profilePortrait img { object-fit: cover; object-position: center 30%; }
+.portraitStatement { position: relative; margin: -48px 22px 0 0; padding: 26px; border: 1px solid rgba(251, 248, 243, 0.25); border-radius: 10px; background: var(--forest-700); font-size: 1.2rem; font-weight: 450; line-height: 1.4; letter-spacing: -0.02em; }
+.identity h1 { margin: 0 0 18px; font-size: clamp(2.6rem, 3.7vw, 4rem); font-weight: 550; line-height: 1.04; letter-spacing: -0.055em; overflow-wrap: break-word; }
+.role { margin: 0; font-size: 1rem; line-height: 1.6; }
+.valueHeadline { margin: 28px 0 22px; padding-top: 28px; border-top: 1px solid rgba(251, 248, 243, 0.2); font-size: clamp(1.5rem, 2.05vw, 2.2rem); font-weight: 500; line-height: 1.25; letter-spacing: -0.035em; }
+.profileIntro, .biography p { margin: 0 0 18px; font-size: 0.875rem; line-height: 1.8; }
+.biography { color: var(--bone); }
+.expertise { margin-top: 28px; padding-top: 26px; border-top: 1px solid rgba(251, 248, 243, 0.2); }
+.expertise ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 20px; margin: 0; padding: 0; list-style: none; }
+.expertise li { padding-left: 14px; border-left: 1px solid var(--forest-400); font-size: 0.73rem; line-height: 1.5; }
+.journey { padding-left: 28px; border-left: 1px solid rgba(251, 248, 243, 0.18); }
+.journey > h2 { margin-bottom: 28px; }
+.journeySteps { margin: 0; padding: 0; list-style: none; }
+.journeySteps li { position: relative; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 18px; padding-bottom: 28px; }
+.journeySteps li:not(:last-child)::before { position: absolute; top: 30px; bottom: -2px; left: 15px; width: 1px; background: var(--forest-400); content: ""; }
+.journeyNode { position: relative; display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid var(--forest-400); border-radius: 50%; background: var(--forest-700); color: var(--warm-white); font-size: 0.65rem; }
+.journeySteps h3 { margin: 2px 0 10px; font-size: 1rem; font-weight: 550; line-height: 1.35; letter-spacing: -0.015em; }
+.journeySteps p { margin: 0; color: var(--bone); font-size: 0.8rem; line-height: 1.75; }
+.outcome { padding: 24px; border: 1px solid rgba(251, 248, 243, 0.2); border-radius: 12px; background: var(--forest-700); }
+.outcome .eyebrow { margin-bottom: 14px; }
+.outcome p { margin: 0; font-size: 1.2rem; line-height: 1.4; letter-spacing: -0.025em; }
+.forest .contact { border-top: 1px solid rgba(251, 248, 243, 0.18); }
+.forest .backLink:focus-visible { outline-color: var(--warm-white); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .introduction, .teamGrid, .profile { animation: enter 650ms ease both; }
+  .teamGrid { animation-delay: 90ms; }
+  @keyframes enter { from { opacity: 0.6; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+}
+
+@media (max-width: 1100px) {
+  .people { padding-top: 56px; }
+  .introduction { gap: 36px; }
+  .secondaryIntro { padding-left: 30px; }
+  .teamGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  .cardPortrait { aspect-ratio: 1.1; }
+  .cardContent h3 { font-size: 1.8rem; }
+  .togetherInner { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .togetherInner > div { max-width: 650px; }
+  .profile { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 36px; }
+  .identity h1 { font-size: clamp(2.5rem, 5vw, 3.8rem); }
+  .journey { grid-column: 1 / -1; padding: 36px 0 0; border-left: 0; border-top: 1px solid rgba(251, 248, 243, 0.18); }
+  .journeySteps { max-width: 700px; }
+  .outcome { max-width: 650px; }
+}
+
+@media (max-width: 640px) {
+  .people { padding-block: 40px; }
+  .introduction { grid-template-columns: minmax(0, 1fr); gap: 36px; margin-bottom: 30px; }
+  .introduction h1 { font-size: clamp(2.6rem, 10vw, 3.5rem); }
+  .secondaryIntro { padding: 28px 0 0; border-left: 0; border-top: 1px solid rgba(16, 37, 31, 0.15); }
+  .secondaryIntro h2 { font-size: 1.9rem; }
+  .teamGrid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .cardPortrait { aspect-ratio: 1; }
+  .cardContent { padding: 8px 24px 26px; }
+  .cardRole { min-height: 0; }
+  .together { padding-block: 40px; }
+  .flow { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .flow li { padding: 0 0 30px 66px; }
+  .flow li:last-child { padding-bottom: 0; }
+  .flowNode { position: absolute; top: 0; left: 0; }
+  .flow li:not(:last-child)::before { top: 46px; bottom: 0; left: 23px; width: 1px; height: auto; }
+  .contact { padding-block: 40px; }
+  .contactInner { flex-direction: column; align-items: flex-start; gap: 28px; }
+  .profileMain { padding-top: 26px; }
+  .profile { grid-template-columns: minmax(0, 1fr); gap: 40px; padding-block: 30px 40px; }
+  .portraitColumn { padding-top: 42px; }
+  .profilePortrait { aspect-ratio: 0.85; }
+  .memberNumber { top: -10px; font-size: 8rem; }
+  .identity h1 { font-size: clamp(2.7rem, 11vw, 3.5rem); }
+  .journey { grid-column: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card, .cardPortrait img, .arrow { transition: none; }
+  .card:hover .cardPortrait img { transform: none; }
+}

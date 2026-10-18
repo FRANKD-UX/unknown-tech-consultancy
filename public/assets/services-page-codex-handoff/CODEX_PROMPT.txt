@@ -1,0 +1,21 @@
+Read `SERVICES_PAGE_SPEC.md` first, then inspect every file in `assets/` and inspect the existing `/services` route and canonical service data in the repository.
+
+Implement the Services page to closely match `assets/services-page-reference.png`, including the sticky-scroll behaviour specified in the document:
+
+- background / pillar environment remains sticky
+- service cards scroll through the foreground
+- BUILD → AUTOMATE → SECURE → SCALE each use their own theme and supplied illustration
+- use native scrolling; do not hijack wheel/scroll
+- preserve responsive and reduced-motion fallbacks
+- reuse the project's existing service taxonomy instead of duplicating data
+- do not modify the approved homepage except where shared canonical data must be reused
+- do not add fake work, testimonials, metrics, clients or unsupported claims
+- do not commit, push or deploy
+
+After implementation run `npm run typecheck` and `npm run build`, then report:
+1. files changed
+2. component architecture
+3. how sticky scrolling was implemented
+4. responsive behaviour
+5. reduced-motion behaviour
+6. test/build results
