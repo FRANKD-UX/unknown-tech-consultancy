@@ -110,47 +110,58 @@
     },
     {
       "id": "sophie",
-      "name": "Sophie",
+      "name": "Sophie Maseko",
       "route": "/team/sophie",
-      "role": "Lorem Ipsum",
-      "category": "Lorem Ipsum",
+      "role": "Digital Content & Marketing Strategist",
+      "category": "Content & Growth",
       "photo": "/assets/team/sophie.jpeg",
-      "cardValue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "profileHeadline": "Lorem ipsum dolor sit amet.",
-      "profileIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardValue": "Turns ideas into strategic content and digital campaigns that help businesses reach, engage and grow their audiences.",
+      "profileHeadline": "Turning ideas into content, campaigns and digital experiences that create measurable audience growth.",
+      "profileIntro": "Sophie works with businesses to understand their audience, message and growth objectives, then translates those into practical digital content and marketing strategies.",
       "bio": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet."
+        "With more than five years of experience across retail, hospitality, medical and corporate environments, she brings together content strategy, copywriting, SEO, social media, photography, video and performance analytics to help brands communicate more effectively across digital channels.",
+        "Her role is to ensure that content is not created simply to fill a feed. Every piece should serve a purpose—whether that is increasing awareness, strengthening a brand, improving engagement, driving website traffic or supporting a broader commercial objective."
       ],
-      "clientJourneyTitle": "Lorem ipsum dolor sit amet",
+      "clientJourneyTitle": "How Sophie helps clients move from message to measurable growth",
       "clientJourney": [
         {
           "step": "01",
-          "title": "Lorem ipsum",
-          "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "title": "Understand the audience",
+          "copy": "Identify who the business needs to reach, what matters to that audience and how the brand should communicate with them."
         },
         {
           "step": "02",
-          "title": "Dolor sit amet",
-          "copy": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Define the content strategy",
+          "copy": "Develop a practical content direction based on business objectives, customer behaviour, platforms and brand positioning."
         },
         {
           "step": "03",
-          "title": "Consectetur",
-          "copy": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          "title": "Create the content",
+          "copy": "Plan, write, capture and produce platform-appropriate content across copy, photography, video and other digital formats."
         },
         {
           "step": "04",
-          "title": "Adipiscing elit",
-          "copy": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+          "title": "Distribute and optimise",
+          "copy": "Publish and refine content across relevant channels using platform insights, SEO, audience targeting and campaign performance data."
         },
         {
           "step": "05",
-          "title": "Sed do eiusmod",
-          "copy": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+          "title": "Measure what works",
+          "copy": "Analyse reach, engagement, website traffic and other relevant metrics to identify opportunities and continuously improve performance."
         }
       ],
-      "clientOutcome": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "clientOutcome": "Content and digital marketing that does more than look active—it strengthens the brand, reaches the right audience and contributes to measurable business growth.",
+      "expertiseLabel": "DIGITAL MARKETING EXPERTISE",
+      "technicalExpertise": [
+        "Content Strategy",
+        "Copywriting",
+        "Social Media Marketing",
+        "SEO",
+        "Content Planning & Scheduling",
+        "Photography & Video Content",
+        "Audience Analytics",
+        "Campaign Optimisation"
+      ]
     },
     {
       "id": "matthew",
