@@ -16,7 +16,7 @@ export function TeamMemberProfile({ member }: { member: TeamMember }) {
               <div className={styles.profilePortrait}>
                 <Image src={member.photo} alt={`Portrait of ${member.name}`} fill sizes="(max-width: 640px) 100vw, (max-width: 1100px) 40vw, 30vw" preload />
               </div>
-              <p className={styles.portraitStatement}>{member.cardValue}</p>
+              <p className={styles.portraitStatement}>{member.profileValue ?? member.cardValue}</p>
             </div>
             <div className={styles.identity}>
               <p className={styles.eyebrow}>{member.category}</p>
@@ -29,7 +29,7 @@ export function TeamMemberProfile({ member }: { member: TeamMember }) {
               </div>
               {member.technicalExpertise ? (
                 <section className={styles.expertise} aria-labelledby="expertise-heading">
-                  <h2 className={styles.eyebrow} id="expertise-heading">TECHNICAL EXPERTISE</h2>
+                  <h2 className={styles.eyebrow} id="expertise-heading">{member.expertiseLabel ?? "TECHNICAL EXPERTISE"}</h2>
                   <ul>{member.technicalExpertise.map((skill) => <li key={skill}>{skill}</li>)}</ul>
                 </section>
               ) : null}

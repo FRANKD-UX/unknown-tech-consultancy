@@ -9,9 +9,11 @@ export interface TeamMember {
   category: string;
   photo: string;
   cardValue: string;
+  profileValue?: string;
   profileHeadline: string;
   profileIntro: string;
   bio: readonly string[];
+  expertiseLabel?: string;
   technicalExpertise?: readonly string[];
   clientJourneyTitle: string;
   clientJourney: readonly { step: string; title: string; copy: string }[];

@@ -159,42 +159,54 @@
       "role": "Web Designer & Framer Developer",
       "category": "Web Design",
       "photo": "/assets/team/matthew.jpeg",
-      "cardValue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "profileHeadline": "Lorem ipsum dolor sit amet.",
-      "profileIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardValue": "Designs and builds polished, responsive websites that help businesses communicate clearly and turn visitors into customers.",
+      "profileHeadline": "Designing clear, responsive digital experiences that turn business ideas into effective websites.",
+      "profileIntro": "Matthew works with clients to understand what their website needs to communicate, who it needs to reach and what action visitors should take.",
       "bio": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet."
+        "From visual direction and page structure to responsive layouts, interactions and Framer implementation, Matthew turns business requirements into polished digital experiences that are clear, usable and aligned with the client’s brand.",
+        "His role is to make sure the website is not only visually strong, but also structured around the client’s goals, content and customer journey rather than design decisions that exist purely for appearance."
       ],
-      "clientJourneyTitle": "Lorem ipsum dolor sit amet",
+      "clientJourneyTitle": "How Matthew helps clients move from idea to digital experience",
       "clientJourney": [
         {
           "step": "01",
-          "title": "Lorem ipsum",
-          "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "title": "Understand the business",
+          "copy": "Understand the client’s goals, audience, content and desired customer journey before making design decisions."
         },
         {
           "step": "02",
-          "title": "Dolor sit amet",
-          "copy": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Define the experience",
+          "copy": "Plan the website structure, page hierarchy and user journey so visitors can quickly understand the business and take the right action."
         },
         {
           "step": "03",
-          "title": "Consectetur",
-          "copy": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          "title": "Design the interface",
+          "copy": "Create clear, responsive page designs that balance usability, brand identity and visual consistency."
         },
         {
           "step": "04",
-          "title": "Adipiscing elit",
-          "copy": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+          "title": "Build in Framer",
+          "copy": "Turn the approved design into a responsive Framer website with polished layouts, interactions and reusable components."
         },
         {
           "step": "05",
-          "title": "Sed do eiusmod",
-          "copy": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+          "title": "Refine the experience",
+          "copy": "Review responsiveness, usability, content presentation and interactions to ensure the finished website works consistently across devices."
         }
       ],
-      "clientOutcome": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "clientOutcome": "A website that communicates clearly, represents the business professionally and guides visitors toward meaningful action.",
+      "profileValue": "Designs and builds polished digital experiences that help businesses communicate clearly and convert visitors into customers.",
+      "expertiseLabel": "WEB & DESIGN EXPERTISE",
+      "technicalExpertise": [
+        "Web Design",
+        "Framer Development",
+        "Responsive Design",
+        "UI Design",
+        "Website Prototyping",
+        "Interaction Design",
+        "Landing Pages",
+        "Design Systems"
+      ]
     }
   ],
   "workingTogether": {
