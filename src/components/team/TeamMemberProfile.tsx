@@ -35,15 +35,26 @@ export function TeamMemberProfile({ member }: { member: TeamMember }) {
               ) : null}
             </div>
             <section className={styles.journey} aria-labelledby="journey-heading">
-              <h2 id="journey-heading" className={styles.eyebrow}>{member.clientJourneyTitle}</h2>
-              <ol className={styles.journeySteps}>
-                {member.clientJourney.map((step) => (
-                  <li key={step.step}>
-                    <span className={styles.journeyNode} aria-hidden="true">{step.step}</span>
-                    <div><h3>{step.title}</h3><p>{step.copy}</p></div>
-                  </li>
-                ))}
-              </ol>
+              <h2 id="journey-heading" className={styles.eyebrow}>{member.responsibilities ? "RESPONSIBILITIES" : member.clientJourneyTitle}</h2>
+              {member.responsibilities ? (
+                <div className={styles.responsibilities}>
+                  {member.responsibilities.map((group) => (
+                    <section key={group.title}>
+                      <h3>{group.title}</h3>
+                      <ul>{group.items.map((item) => <li key={item}>{item}</li>)}</ul>
+                    </section>
+                  ))}
+                </div>
+              ) : (
+                <ol className={styles.journeySteps}>
+                  {member.clientJourney?.map((step) => (
+                    <li key={step.step}>
+                      <span className={styles.journeyNode} aria-hidden="true">{step.step}</span>
+                      <div><h3>{step.title}</h3><p>{step.copy}</p></div>
+                    </li>
+                  ))}
+                </ol>
+              )}
               <div className={styles.outcome}>
                 <h3 className={styles.eyebrow}>CLIENT OUTCOME</h3>
                 <p>{member.clientOutcome}</p>

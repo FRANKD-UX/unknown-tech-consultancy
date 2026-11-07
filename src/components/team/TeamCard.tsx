@@ -7,7 +7,7 @@ export function TeamCard({ member }: { member: TeamMember }) {
   return (
     <Link className={styles.card} href={member.route} aria-labelledby={`${member.id}-card-name`}>
       <div className={styles.cardPortrait}>
-        <Image src={member.photo} alt={`Portrait of ${member.name}`} fill sizes="(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 25vw" />
+        <Image src={member.photo} alt={`Portrait of ${member.name}`} fill sizes="(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 33vw" />
         <span className={styles.cardIndex} aria-hidden="true">{memberNumber(member)}</span>
       </div>
       <div className={styles.cardContent}>

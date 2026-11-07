@@ -11,62 +11,18 @@
   },
   "members": [
     {
-      "id": "bokamoso-jadian-motlopi",
-      "name": "Bokamoso Jadian Motlopi",
-      "route": "/team/bokamoso-jadian-motlopi",
-      "role": "Head of Sales & Revenue Growth",
-      "category": "Commercial Strategy",
-      "photo": "/assets/team/bokamoso-jadian-motlopi.jpeg",
-      "cardValue": "Helps clients identify growth opportunities and turn them into practical action.",
-      "profileHeadline": "Helping clients turn growth opportunities into practical action.",
-      "profileIntro": "Bokamoso works with clients to identify where growth is being lost, where customer journeys or sales processes are underperforming, and what changes will create the greatest impact.",
-      "bio": [
-        "Bokamoso helps businesses identify growth opportunities and determine the most effective way to act on them. His background spans sales, digital marketing and client acquisition, giving him a practical understanding of how businesses attract customers, convert opportunities and build the systems required to sustain growth.",
-        "He works closely with clients to understand their objectives, identify gaps in their current processes and translate those findings into practical technology and growth strategies. His focus is ensuring that solutions such as websites, CRM platforms and business systems are aligned with the organisation\u2019s actual priorities."
-      ],
-      "clientJourneyTitle": "How Bokamoso helps clients move businesses forward",
-      "clientJourney": [
-        {
-          "step": "01",
-          "title": "Clarity on the opportunity",
-          "copy": "Understand what is holding growth back and identify the opportunities worth pursuing."
-        },
-        {
-          "step": "02",
-          "title": "Stronger customer acquisition",
-          "copy": "Improve how the business attracts, reaches and engages the right audience."
-        },
-        {
-          "step": "03",
-          "title": "Better conversion",
-          "copy": "Reduce friction between interest, lead handling and sales so more opportunities become real results."
-        },
-        {
-          "step": "04",
-          "title": "Systems that support growth",
-          "copy": "Align the right website, CRM and business systems with the sales process and customer journey."
-        },
-        {
-          "step": "05",
-          "title": "Sustainable growth",
-          "copy": "Connect commercial priorities with practical actions and systems that can scale with the business."
-        }
-      ],
-      "clientOutcome": "A clearer path to measurable and sustainable growth."
-    },
-    {
       "id": "frank-ndlovu",
       "name": "Frank Ndlovu",
       "route": "/team/frank-ndlovu",
       "role": "Lead Software Engineer & Technical Architect",
-      "category": "Technical Lead",
+      "category": "Technology & Engineering",
       "photo": "/assets/team/frank-ndlovu.jpg",
       "cardValue": "Turns complex business requirements into reliable technology systems.",
       "profileHeadline": "Turning complex business requirements into reliable technology systems.",
       "profileIntro": "Frank works with clients to understand how their business operates and translate that into practical, scalable technology solutions.",
       "bio": [
-        "From custom software and business applications to APIs, databases, integrations, automation, cloud infrastructure and security, Frank leads the consultancy\u2019s deeper technical delivery.",
-        "His role is to ensure that the right solution is designed, built, integrated and supported around the client\u2019s real operational requirements rather than forcing the business into a generic technical model."
+        "From custom software and business applications to APIs, databases, integrations, automation, cloud infrastructure and security, Frank leads the consultancy’s deeper technical delivery.",
+        "His role is to ensure that the right solution is designed, built, integrated and supported around the client’s real operational requirements rather than forcing the business into a generic technical model."
       ],
       "technicalExpertise": [
         ".NET & C# Development",
@@ -93,7 +49,7 @@
         {
           "step": "03",
           "title": "Build the solution",
-          "copy": "Develop custom software, APIs and business logic tailored to the client\u2019s actual requirements."
+          "copy": "Develop custom software, APIs and business logic tailored to the client’s actual requirements."
         },
         {
           "step": "04",
@@ -110,57 +66,59 @@
     },
     {
       "id": "sophie",
-      "name": "Sophie Maseko",
+      "name": "Sophie",
       "route": "/team/sophie",
-      "role": "Digital Content & Marketing Strategist",
-      "category": "Content & Growth",
+      "role": "Head of Business Development, Sales & Client Success",
+      "category": "Commercial & Business Operations",
       "photo": "/assets/team/sophie.jpeg",
-      "cardValue": "Turns ideas into strategic content and digital campaigns that help businesses reach, engage and grow their audiences.",
-      "profileHeadline": "Turning ideas into content, campaigns and digital experiences that create measurable audience growth.",
-      "profileIntro": "Sophie works with businesses to understand their audience, message and growth objectives, then translates those into practical digital content and marketing strategies.",
+      "cardValue": "Connects business development, sales, marketing and client relationships with coordinated service delivery.",
+      "profileHeadline": "Connecting commercial growth with lasting client partnerships.",
+      "profileIntro": "From the first conversation to ongoing delivery, Sophie connects commercial priorities with a consistent client experience.",
       "bio": [
-        "With more than five years of experience across retail, hospitality, medical and corporate environments, she brings together content strategy, copywriting, SEO, social media, photography, video and performance analytics to help brands communicate more effectively across digital channels.",
-        "Her role is to ensure that content is not created simply to fill a feed. Every piece should serve a purpose—whether that is increasing awareness, strengthening a brand, improving engagement, driving website traffic or supporting a broader commercial objective."
+        "Sophie leads business development, sales, client success, marketing, and operational coordination at Unknown Technology Consultancy. She oversees client acquisition, strategic partnerships, revenue growth initiatives, and customer relationships while ensuring that prospective and existing clients receive a consistent, professional experience throughout their engagement with the company.",
+        "Her role connects commercial strategy with service delivery, coordinating sales opportunities, client requirements, marketing initiatives, and internal operations to support sustainable business growth and long-term client partnerships."
       ],
-      "clientJourneyTitle": "How Sophie helps clients move from message to measurable growth",
-      "clientJourney": [
+      "clientOutcome": "A coordinated experience from first enquiry to long-term partnership, supporting sustainable business growth.",
+      "responsibilities": [
         {
-          "step": "01",
-          "title": "Understand the audience",
-          "copy": "Identify who the business needs to reach, what matters to that audience and how the brand should communicate with them."
+          "title": "Business Development & Sales",
+          "items": [
+            "Lead generation and qualification",
+            "Prospect engagement and client acquisition",
+            "Sales pipeline and opportunity management",
+            "Sales proposals, quotations, and negotiations",
+            "Business partnerships and revenue development"
+          ]
         },
         {
-          "step": "02",
-          "title": "Define the content strategy",
-          "copy": "Develop a practical content direction based on business objectives, customer behaviour, platforms and brand positioning."
+          "title": "Client Success & Account Management",
+          "items": [
+            "Client onboarding and engagement",
+            "Client relationship management",
+            "Customer satisfaction and retention",
+            "Ongoing account management",
+            "Client communication and feedback"
+          ]
         },
         {
-          "step": "03",
-          "title": "Create the content",
-          "copy": "Plan, write, capture and produce platform-appropriate content across copy, photography, video and other digital formats."
+          "title": "Marketing & Brand Growth",
+          "items": [
+            "Marketing campaigns and brand communication",
+            "Digital marketing coordination",
+            "Lead nurturing and conversion support",
+            "Business visibility and promotional initiatives"
+          ]
         },
         {
-          "step": "04",
-          "title": "Distribute and optimise",
-          "copy": "Publish and refine content across relevant channels using platform insights, SEO, audience targeting and campaign performance data."
-        },
-        {
-          "step": "05",
-          "title": "Measure what works",
-          "copy": "Analyse reach, engagement, website traffic and other relevant metrics to identify opportunities and continuously improve performance."
+          "title": "Business Operations",
+          "items": [
+            "Operational coordination",
+            "Project scheduling and internal handovers",
+            "Client requirement gathering",
+            "Administrative workflow management",
+            "Collaboration between commercial and technical teams"
+          ]
         }
-      ],
-      "clientOutcome": "Content and digital marketing that does more than look active—it strengthens the brand, reaches the right audience and contributes to measurable business growth.",
-      "expertiseLabel": "DIGITAL MARKETING EXPERTISE",
-      "technicalExpertise": [
-        "Content Strategy",
-        "Copywriting",
-        "Social Media Marketing",
-        "SEO",
-        "Content Planning & Scheduling",
-        "Photography & Video Content",
-        "Audience Analytics",
-        "Campaign Optimisation"
       ]
     },
     {
@@ -168,7 +126,7 @@
       "name": "Matthew",
       "route": "/team/matthew",
       "role": "Web Designer & Framer Developer",
-      "category": "Web Design",
+      "category": "Design & Digital Experience",
       "photo": "/assets/team/matthew.jpeg",
       "cardValue": "Designs and builds polished, responsive websites that help businesses communicate clearly and turn visitors into customers.",
       "profileHeadline": "Designing clear, responsive digital experiences that turn business ideas into effective websites.",
@@ -233,7 +191,7 @@
       {
         "step": "02",
         "title": "Define the solution",
-        "copy": "Determine the right mix of strategy, design and technology for the client\u2019s needs."
+        "copy": "Determine the right mix of strategy, design and technology for the client’s needs."
       },
       {
         "step": "03",

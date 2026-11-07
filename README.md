@@ -57,6 +57,22 @@ The reference images are included for Codex/design comparison only; they are not
 
 The site exports every route as static HTML for GitHub Pages.
 
+## Team content
+
+`src/data/team-content.json` is the single source for the active team, profile
+content, responsibilities, portrait paths, routes and display order. Components
+consume it through `src/data/team.ts`. The former member's URL redirects to
+`/team` using the same convention as `/approach`.
+
+Historical team handoff documents and reference images are retained in
+`docs/team-handoff/`, outside the public asset tree. They are superseded by the
+current team data and must not be copied into the static export.
+
+The enquiry address in `src/data/contact.ts` is currently unset. Until a verified
+company or Sophie enquiry address is supplied, the contact form downloads a
+project brief and does not send it. No personal booking or CRM assignment is
+configured in this repository.
+
 ## Important
 
 Before continuing implementation, read `CODEX_HANDOFF.md`.

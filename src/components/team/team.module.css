@@ -70,7 +70,7 @@
 
 .teamGrid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -300,6 +300,10 @@
 .expertise li { padding-left: 14px; border-left: 1px solid var(--forest-400); font-size: 0.73rem; line-height: 1.5; }
 .journey { padding-left: 28px; border-left: 1px solid rgba(251, 248, 243, 0.18); }
 .journey > h2 { margin-bottom: 28px; }
+.responsibilities section { margin-bottom: 24px; }
+.responsibilities h3 { margin: 0 0 10px; font-size: 1rem; font-weight: 550; line-height: 1.4; }
+.responsibilities ul { margin: 0; padding-left: 18px; color: var(--bone); font-size: 0.8rem; line-height: 1.75; }
+.responsibilities li + li { margin-top: 4px; }
 .journeySteps { margin: 0; padding: 0; list-style: none; }
 .journeySteps li { position: relative; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 18px; padding-bottom: 28px; }
 .journeySteps li:not(:last-child)::before { position: absolute; top: 30px; bottom: -2px; left: 15px; width: 1px; background: var(--forest-400); content: ""; }

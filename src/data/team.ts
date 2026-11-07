@@ -1,5 +1,5 @@
 import { assetPath } from "@/lib/asset-path";
-import handoff from "../../public/assets/team-page-codex-handoff/team-data.json";
+import content from "./team-content.json";
 
 export interface TeamMember {
   id: string;
@@ -15,19 +15,20 @@ export interface TeamMember {
   bio: readonly string[];
   expertiseLabel?: string;
   technicalExpertise?: readonly string[];
-  clientJourneyTitle: string;
-  clientJourney: readonly { step: string; title: string; copy: string }[];
+  responsibilities?: readonly { title: string; items: readonly string[] }[];
+  clientJourneyTitle?: string;
+  clientJourney?: readonly { step: string; title: string; copy: string }[];
   clientOutcome: string;
 }
 
-// The supplied content handoff is the canonical source for cards and profiles.
+// Team content is the canonical source for cards, profiles and static routes.
 // Do not copy member biographies or placeholder content into route components.
-export const teamPage = handoff.page;
-export const teamMembers: readonly TeamMember[] = handoff.members.map((member) => ({
+export const teamPage = content.page;
+export const teamMembers: readonly TeamMember[] = content.members.map((member) => ({
   ...member,
   photo: assetPath(member.photo),
 }));
-export const workingTogether = handoff.workingTogether;
+export const workingTogether = content.workingTogether;
 
 export function memberNumber(member: TeamMember) {
   return String(teamMembers.findIndex((item) => item.id === member.id) + 1).padStart(2, "0");
