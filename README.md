@@ -1,6 +1,6 @@
 # Unknown Technology Consultancy — Next.js Design Starter
 
-This repository is a coded head start for the approved technology consultancy design developed in the ChatGPT design session.
+This repository is a coded head start for the approved technology consultancy design 
 
 ## Stack
 
@@ -74,6 +74,7 @@ project brief and does not send it. No personal booking or CRM assignment is
 configured in this repository.
 
 ## Important
+if you are using coding agents ( which you are most likely are in this day and age ) 
 
 Before continuing implementation, read `CODEX_HANDOFF.md`.
 
