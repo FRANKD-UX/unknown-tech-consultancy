@@ -75,7 +75,7 @@
       "profileHeadline": "Connecting commercial growth with lasting client partnerships.",
       "profileIntro": "From the first conversation to ongoing delivery, Sophie connects commercial priorities with a consistent client experience.",
       "bio": [
-        "Sophie leads business development, sales, client success, marketing, and operational coordination at Unknown Technology Consultancy. She oversees client acquisition, strategic partnerships, revenue growth initiatives, and customer relationships while ensuring that prospective and existing clients receive a consistent, professional experience throughout their engagement with the company.",
+        "Sophie leads business development, sales, client success, marketing, and operational coordination at Ubuntu Quest. She oversees client acquisition, strategic partnerships, revenue growth initiatives, and customer relationships while ensuring that prospective and existing clients receive a consistent, professional experience throughout their engagement with the company.",
         "Her role connects commercial strategy with service delivery, coordinating sales opportunities, client requirements, marketing initiatives, and internal operations to support sustainable business growth and long-term client partnerships."
       ],
       "clientOutcome": "A coordinated experience from first enquiry to long-term partnership, supporting sustainable business growth.",
@@ -119,62 +119,6 @@
             "Collaboration between commercial and technical teams"
           ]
         }
-      ]
-    },
-    {
-      "id": "matthew",
-      "name": "Matthew",
-      "route": "/team/matthew",
-      "role": "Web Designer & Framer Developer",
-      "category": "Design & Digital Experience",
-      "photo": "/assets/team/matthew.jpeg",
-      "cardValue": "Designs and builds polished, responsive websites that help businesses communicate clearly and turn visitors into customers.",
-      "profileHeadline": "Designing clear, responsive digital experiences that turn business ideas into effective websites.",
-      "profileIntro": "Matthew works with clients to understand what their website needs to communicate, who it needs to reach and what action visitors should take.",
-      "bio": [
-        "From visual direction and page structure to responsive layouts, interactions and Framer implementation, Matthew turns business requirements into polished digital experiences that are clear, usable and aligned with the client’s brand.",
-        "His role is to make sure the website is not only visually strong, but also structured around the client’s goals, content and customer journey rather than design decisions that exist purely for appearance."
-      ],
-      "clientJourneyTitle": "How Matthew helps clients move from idea to digital experience",
-      "clientJourney": [
-        {
-          "step": "01",
-          "title": "Understand the business",
-          "copy": "Understand the client’s goals, audience, content and desired customer journey before making design decisions."
-        },
-        {
-          "step": "02",
-          "title": "Define the experience",
-          "copy": "Plan the website structure, page hierarchy and user journey so visitors can quickly understand the business and take the right action."
-        },
-        {
-          "step": "03",
-          "title": "Design the interface",
-          "copy": "Create clear, responsive page designs that balance usability, brand identity and visual consistency."
-        },
-        {
-          "step": "04",
-          "title": "Build in Framer",
-          "copy": "Turn the approved design into a responsive Framer website with polished layouts, interactions and reusable components."
-        },
-        {
-          "step": "05",
-          "title": "Refine the experience",
-          "copy": "Review responsiveness, usability, content presentation and interactions to ensure the finished website works consistently across devices."
-        }
-      ],
-      "clientOutcome": "A website that communicates clearly, represents the business professionally and guides visitors toward meaningful action.",
-      "profileValue": "Designs and builds polished digital experiences that help businesses communicate clearly and convert visitors into customers.",
-      "expertiseLabel": "WEB & DESIGN EXPERTISE",
-      "technicalExpertise": [
-        "Web Design",
-        "Framer Development",
-        "Responsive Design",
-        "UI Design",
-        "Website Prototyping",
-        "Interaction Design",
-        "Landing Pages",
-        "Design Systems"
       ]
     }
   ],

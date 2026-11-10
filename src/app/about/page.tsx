@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <EditorialShell>
       <section className={`container ${styles.aboutIntro}`} aria-labelledby="about-heading">
-        <p className={styles.eyebrow}>ABOUT UNKNOWN</p>
+        <p className={styles.eyebrow}>ABOUT UBUNTU QUEST</p>
         <div className={styles.introSplit}>
           <h1 id="about-heading">The business comes first.<br />The technology follows.</h1>
           <div className={styles.introCopy}>

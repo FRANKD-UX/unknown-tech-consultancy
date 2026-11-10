@@ -3,13 +3,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Technology Consultancy | Software, Cloud, Security & Digital Services",
-    template: "%s | Unknown Technology Consultancy",
+    default: "Ubuntu Quest | Software, Cloud, Security & Digital Services",
+    template: "%s | Ubuntu Quest",
   },
   description:
-    "Technology consultancy delivering custom software, web development, DevOps, cloud infrastructure, cybersecurity, managed IT, automation, SEO and digital solutions.",
+    "Ubuntu Quest is a technology consultancy delivering custom software, web development, DevOps, cloud infrastructure, cybersecurity, managed IT, automation, SEO and digital solutions.",
   openGraph: {
-    title: "Unknown Technology Consultancy",
+    title: "Ubuntu Quest",
     description:
       "Software, cloud, security, automation, managed IT and digital services built around real business outcomes.",
     type: "website",

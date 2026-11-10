@@ -11,10 +11,10 @@ export function SiteNavbar() {
 
   return (
     <nav className="site-nav" aria-label="Primary navigation">
-      <Link className="brand" href="/" aria-label="Unknown Technology Consultancy home">
+      <Link className="brand" href="/" aria-label="Ubuntu Quest home">
         <span className="brand__mark" aria-hidden="true">U</span>
         <span className="brand__copy">
-          <strong>UNKNOWN</strong>
+          <strong>UBUNTU QUEST</strong>
           <small>TECHNOLOGY CONSULTANCY</small>
         </span>
       </Link>

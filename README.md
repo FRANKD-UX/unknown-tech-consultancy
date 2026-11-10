@@ -1,4 +1,4 @@
-# Unknown Technology Consultancy — Next.js Design Starter
+# Ubuntu Quest — Next.js Design Starter
 
 This repository is a coded head start for the approved technology consultancy design 
 

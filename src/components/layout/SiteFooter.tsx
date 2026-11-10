@@ -8,7 +8,7 @@ export function SiteFooter() {
         <Link className="brand brand--footer" href="/">
           <span className="brand__mark" aria-hidden="true">U</span>
           <span className="brand__copy">
-            <strong>UNKNOWN</strong>
+            <strong>UBUNTU QUEST</strong>
             <small>TECHNOLOGY CONSULTANCY</small>
           </span>
         </Link>
@@ -25,7 +25,7 @@ export function SiteFooter() {
             <a href="#" aria-label="X">X</a>
             <a href="#" aria-label="Email">✉</a>
           </div>
-          <p>© 2026 Unknown. All rights reserved.</p>
+          <p>© 2026 Ubuntu Quest. All rights reserved.</p>
         </div>
       </div>
     </footer>
